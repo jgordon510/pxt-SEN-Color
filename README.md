@@ -7,7 +7,7 @@ See https://joy-it.net/products/SEN-Color for more details.
 
 By default the color sensors is connected as follows:
 
-| RB-TFT1.8     | Micro:bit                 |
+| SEN-Color     | Micro:bit                 |
 | ------------- |:--------------------------|
 | VCC           | 3V                        |
 | GND           | GND                       |
