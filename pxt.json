@@ -1,6 +1,6 @@
 {
     "name": "pxt-SEN-Color",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "With the SEN-Color TCS3200 color sensor module it is possible to determine the composition (red, green and blue content) of colors.",
     "license": "MIT",
     "dependencies": {
