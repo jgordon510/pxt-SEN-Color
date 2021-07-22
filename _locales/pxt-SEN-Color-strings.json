@@ -1,0 +1,9 @@
+{
+  "SENColor.calibrate|block": "Calibrate sensor",
+  "SENColor.getColor|block": "Measure %color color",
+  "SENColor.setPins|block": "Set sensor pins to S0:%S0| S1:%S1| S2:%S2| S3:%S3| OUT:%OUT",
+  "color.blue|block": "Blue",
+  "color.green|block": "Green",
+  "color.red|block": "Red",
+  "{id:category}SENColor": "SENColor"
+}
