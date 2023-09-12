@@ -92,6 +92,7 @@ namespace SENColor {
    * if one of them is prominent
    * otherwise returns '-'
    */
+  //%block="Get R, G, or B"
   export function getPrimary(): string {
     let r = this.getColor(0)
     let g = this.getColor(1)

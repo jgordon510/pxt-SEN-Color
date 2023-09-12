@@ -9,8 +9,8 @@
   "files": [
     "README.md",
     "SEN-Color.ts",
-    "_locales/pxt-SEN-Color-strings.json",
-    "_locales/pxt-SEN-Color-jsdoc-strings.json"
+    "_locales/de/pxt-SEN-Color-strings.json",
+    "_locales/de/pxt-SEN-Color-jsdoc-strings.json"
   ],
   "testFiles": [
     "test.ts"
