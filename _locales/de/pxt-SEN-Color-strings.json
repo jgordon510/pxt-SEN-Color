@@ -1,6 +1,7 @@
 {
   "SENColor.calibrate|block": "Sensor kalibrieren",
   "SENColor.getColor|block": "Messe die Farbe %color",
+  "SENColor.getPrimary|block": "Get R, G, or B",
   "SENColor.setPins|block": "Konfiguriere Sensor-Pins auf S0:%S0| S1:%S1| S2:%S2| S3:%S3| OUT:%OUT",
   "color.blue|block": "Blau",
   "color.green|block": "Gruen",
