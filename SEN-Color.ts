@@ -94,9 +94,9 @@ namespace SENColor {
    */
   //%block="Get R, G, or B"
   export function getPrimary(): string {
-    let r = this.getColor(0)
-    let g = this.getColor(1)
-    let b = this.getColor(2)
+    let r = SENColor.getColor(0)
+    let g = SENColor.getColor(1)
+    let b = SENColor.getColor(2)
     let ave = (r + g + b) / 3
     const lim = 1.5
     if (r > ave * lim) return 'Red'
