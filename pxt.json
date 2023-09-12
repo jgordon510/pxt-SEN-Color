@@ -1,21 +1,21 @@
 {
-    "name": "pxt-SEN-Color",
-    "version": "1.0.1",
-    "description": "With the SEN-Color TCS3200 color sensor module it is possible to determine the composition (red, green and blue content) of colors.",
-    "license": "MIT",
-    "dependencies": {
-        "core": "*"
-    },
-    "files": [
-        "README.md",
-        "SEN-Color.ts",
-        "_locales/de/pxt-SEN-Color-strings.json",
-        "_locales/de/pxt-SEN-Color-jsdoc-strings.json"
-    ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "supportedTargets": [
-        "microbit"
-    ]
+  "name": "pxt-SEN-Color",
+  "version": "1.0.1",
+  "description": "With the SEN-Color TCS3200 color sensor module it is possible to determine the composition (red, green and blue content) of colors.",
+  "license": "MIT",
+  "dependencies": {
+    "core": "*"
+  },
+  "files": [
+    "README.md",
+    "SEN-Color.ts",
+    "_locales/pxt-SEN-Color-strings.json",
+    "_locales/pxt-SEN-Color-jsdoc-strings.json"
+  ],
+  "testFiles": [
+    "test.ts"
+  ],
+  "supportedTargets": [
+    "microbit"
+  ]
 }
