@@ -98,24 +98,29 @@ namespace SENColor {
     let g = SENColor.getColor(1)
     let b = SENColor.getColor(2)
     let ave = (r + g + b) / 3
-    this.test = ""
-    serial.writeLine("R: " + r)
-    serial.writeLine("G: " + g)
-    serial.writeLine("B: " + b)
-    serial.writeLine("AVE: " + a)
-    const lim = 1.5
-    if (r > ave * lim) return 'Red'
-    if (g > ave * lim) return 'Green'
-    if (r > ave * lim) return 'Blue'
-    return '-'
+    if (ave < 80) return "-"
+    let max = 0
+    let color = '-'
+    for (let i = 0; i < 3; i++) {
+      let val = SENColor.getColor(i)
+      if (val > max) {
+        max = val
+        if (i === 0) color = 'Red'
+        if (i === 1) color = 'Green'
+        if (i === 2) color = 'Blue'
+      }
+    }
+    return color
   }
   /*
    * Returns the color components
    */
   //%block="Measure %color color"
   export function getColor(color: color): number {
+
     if (calibration) {
       let colorValue: number
+
       switch (color) {
         case 0:
           // Red measurement
