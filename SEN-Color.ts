@@ -98,6 +98,11 @@ namespace SENColor {
     let g = SENColor.getColor(1)
     let b = SENColor.getColor(2)
     let ave = (r + g + b) / 3
+    this.test = ""
+    serial.writeLine("R: " + r)
+    serial.writeLine("G: " + g)
+    serial.writeLine("B: " + b)
+    serial.writeLine("AVE: " + a)
     const lim = 1.5
     if (r > ave * lim) return 'Red'
     if (g > ave * lim) return 'Green'
